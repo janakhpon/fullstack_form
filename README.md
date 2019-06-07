@@ -7,23 +7,25 @@
 
 clone the repository
 
-    git clone https://github.com/janakhpon/Ei-sGallery.git
+    git clone https://github.com/janakhpon/fullstack_form.git
 
 Get into root folder
 
-    cd Ei'sGallery
+    cd fullstack_form
 
 Install Dependencies using [npm](https://www.npmjs.com/)
 
     npm install
     npm i -d
-    npm start
+    npm run client-install
+    npm run dev
 
 Install Dependencies using [yarn](https://yarnpkg.com/en/)
 
     yarn install
     yarn add
-    yarn start
+    yarn client-install
+    yarn run dev
 
 
 
@@ -34,13 +36,15 @@ If u run into error use the following steps
 ```bash
 sudo yarn install
 sudo yarn add
-sudo yarn start
+sudo yarn run client-install
+sudo yarn run dev
 ```
 or
 
 ```bash
 sudo npm install
 sudo npm i -d
-sudo npm start
+sudo npm run client-install
+sudo npm run dev
 ```
 
