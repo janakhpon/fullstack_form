@@ -2,7 +2,6 @@
 const express = require("express");
 app = express(),
   path = require("path"),
-  ejsLayouts = require("express-ejs-layouts"),
   bodyParser = require("body-parser"),
   userRouter = require('./routes/users');
    
@@ -10,10 +9,6 @@ app = express(),
 //Allow Bodyparser
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static("public"));
-app.set("views", path.join(__dirname, "views"));
-app.set('view engine', 'ejs');
-app.use(ejsLayouts);
 //Allow XHttp request 
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
@@ -23,11 +18,6 @@ app.use(function(req, res, next) {
   );
   res.header("Access-Control-Allow-Methods", "GET,POST,DELETE,PUT");
   next();
-});
-
-//responding route
-app.get("/", (req, res) => {
-  res.render('index');
 });
 
 
