@@ -1,5 +1,5 @@
 # fullstack_form
- Fullstack_form is a simple demonstration of MERN stack and its additional CRUD and REST service and fullstack_form is a project where `SERVER` and `CLIENT` are built together. Here is a github example demo for [herokudeploy](https://calm-beach-66521.herokuapp.com/)
+ Fullstack_form is a simple demonstration of MERN stack and its additional CRUD and REST service and fullstack_form is a project where `SERVER` and `CLIENT` are built together. Here is a github example demo for [HEROKU_DEPLOYMENT](https://calm-beach-66521.herokuapp.com/)
 
 
 
